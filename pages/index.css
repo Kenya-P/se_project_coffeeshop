@@ -106,9 +106,9 @@
     line-height: 20px;
  }
 
- .nav__link:hover {
-   
-  }
+.nav__link:hover {
+   /* insert hover style here */
+  } 
 
 .recipes {
     color: #fff;
