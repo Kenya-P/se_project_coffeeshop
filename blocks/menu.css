@@ -1,0 +1,38 @@
+.menu {
+    background-color: #fff;
+    background-image: url(../images/background_menu.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 100px;
+
+}
+
+.menu__title {
+    max-width: 780px;
+    margin: 0 0 24px;
+    text-align: center;
+}
+
+.menu__subtitle {
+    max-width: 780px;
+    margin: 0 0 100px;
+    text-align: center;
+}
+
+.menu__cards {
+    display: flex;
+}
+
+.card__title {
+
+}
+
+.card__list-item {
+    list-style: none;
+
+}
+
+.card__list-divider {
+
+}
+
