@@ -13,7 +13,7 @@
 max-width: 251px;
 margin: 0;
 position: relative;
-z-index: 2;
+z-index: 1;
 font-family: "Inter", "Arial", sans-serif;
 font-weight: 500;
 font-size: 44px;
@@ -43,8 +43,24 @@ line-height: 30px;
     position: absolute;
     top: -152px;
     left: -129px;
+    z-index: 0;
 }
 
-@keyframes pulsate [
-    
-]
+
+.about__circle_animation_blurred {
+    animation: pulsate ease-in-out 1.3s infinite;
+}
+
+@keyframes pulsate {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.6;
+      transform: scale(1.2);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1.3);
+    }
+}

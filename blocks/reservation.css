@@ -66,11 +66,14 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+    transition-duration: 0.3s ;
+    cursor: pointer;
 }
 
-/*Add hover syle to button and checkbox*/
+
 .form__button:hover {
-    color: #3F96F3;
+    background-color: #3F96F3;
+    box-shadow: 0 6px 10px rgba(68, 67, 67, 0.304), 0 6px 25px rgba(64, 64, 64, 0.19);
 }
 
 .form__label_type_checkbox {
@@ -88,4 +91,25 @@
     border-radius: 2px;
     height: 20px;
     width: 20px;
+}
+
+.form__checkbox input {
+    position: absolute;
+    opacity: 0;
+     cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.form__checkbox_button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.form__label:hover input ~ .form__checkbox_button {
+    
 }

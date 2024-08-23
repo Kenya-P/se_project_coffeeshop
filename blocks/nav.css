@@ -27,7 +27,6 @@
     line-height: 20px;
  }
 
- /*Add hover syle to navlinks*/
 .nav__link:hover {
     cursor: pointer;
     color: #3F96F3;
