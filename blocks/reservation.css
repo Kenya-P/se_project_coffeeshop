@@ -37,6 +37,10 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;  
 }
 
 .form__input {
@@ -91,25 +95,4 @@
     border-radius: 2px;
     height: 20px;
     width: 20px;
-}
-
-.form__checkbox input {
-    position: absolute;
-    opacity: 0;
-     cursor: pointer;
-    height: 0;
-    width: 0;
-}
-
-.form__checkbox_button {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-}
-
-.form__label:hover input ~ .form__checkbox_button {
-    
 }
