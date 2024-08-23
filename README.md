@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+As the webpage is immaculate as is. My one improvement was to give a bit more character to the submit button. So, I added a box shabow when hovering over the button along with the suggested transition.
