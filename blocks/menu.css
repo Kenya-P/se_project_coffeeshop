@@ -16,6 +16,7 @@
     padding: 0 0 24px;
     font-family: "Inter", "Arial", sans-serif;
     font-weight: 500;
+    font-size: 44px;
     line-height: 52px;
 }
 
@@ -24,8 +25,8 @@
     margin: 0 auto;
     text-align: center;
     display: block;
-    padding: 24px 0 50px;
-    font-family: "Noto Serif", "Times New Rmoan", serif;
+    padding: 0 0 100px;
+    font-family: "Noto Serif", "Times New Roman", serif;
     font-size: 20px;
     line-height: 30px;
 }
@@ -39,40 +40,3 @@
     margin: 0;
     list-style-type: none;
 }
-
-.card {
-    width: 540px;
-}
-
-.card__title {
-    margin: 0 0 32px;
-    font-family: "Inter", "Arial", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 30px;
-}
-
-.card__list {
-    list-style: none;
-   padding: 0;
-   margin: 0;
-   display: flex;
-   flex-direction: column;
-   gap: 16px;
-   font-family: "Noto Serif", "Times New Rmoan", serif;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-.card__list-item {
-    margin-bottom: 16px;
-    display: flex;
-
-}
-
-.card__list-divider {
-    border-bottom: 1px solid #000;
-    flex-grow: 1;
-
-}
-

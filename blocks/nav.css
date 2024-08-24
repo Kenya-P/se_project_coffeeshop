@@ -11,7 +11,7 @@
   }
   
 .nav__links {
-    margin: 8px 0 0;
+    margin: 0;
     padding: 0;
     display: flex;
     column-gap: 20px;
